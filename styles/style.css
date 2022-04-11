@@ -1,0 +1,8 @@
+@font-face {
+    font-family: SansitaSwashed;
+    src: url(SansitaSwashed-Regular.ttf);
+  }
+
+  body {
+    font-family: SansitaSwashed;
+  }
