@@ -47,6 +47,17 @@ table {
 	border-spacing: 0;
 }
 
+
+
+header div {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background: tomato;
+}
+
 .nav ul{
     margin: 0;
     padding: 0;
@@ -55,7 +66,7 @@ table {
 }
 
 .nav a{
-    padding: 1em;
+    padding: 1.6rem;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -69,4 +80,59 @@ table {
     @media(max-width: 450px){
         flex-flow: column wrap;
     }
+}
+
+
+.nav .menu li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background: tomato;
+    list-style: none;
+}
+
+
+.nav .menu li a{
+    padding: 1.6rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.nav .menu li a:hover{
+    background: #fff;
+    color: #000;
+
+    @media(max-width: 450px){
+        background: tomato;
+        color: #fff;
+    }
+}
+
+
+.nav .menu li a:active{
+    background: tomato;
+    color: #fff;
+}
+
+
+.nav .menu li a:visited{
+    background: tomato;
+    color: #fff;
+}
+
+
+.nav .menu li a:focus{
+    background: tomato;
+    color: #fff;
+}
+
+
+.nav .menu li a:hover{
+    background: tomato;
+    color: #fff;
 }
