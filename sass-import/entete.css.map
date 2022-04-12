@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "entete.scss"
+    ],
+    "names": [],
+    "file": "entete.css"
+}

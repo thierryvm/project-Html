@@ -1,1 +1,11 @@
-{"version":3,"sourceRoot":"","sources":["entete.scss","pieddepage.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACI","file":"style.css"}
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,OAAO,CAAA;EACH,SAAS,EAAE,IAAI;CAClB;;ACFD,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "style.scss",
+        "entete.scss",
+        "pieddepage.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
