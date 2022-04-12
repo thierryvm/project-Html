@@ -1,0 +1,38 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-mine: #333;
+  --color-tundora: #4D4D4D;
+  --color-scorpion: #595959;
+  --color-dove: #737373;
+  --color-gallery: #efefef;
+  --color-alabaster: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-white: #252525;
+    --color-black: #E6E6E6;
+    --color-mine: #B3B3B3;
+    --color-tundora: #8C8C8C;
+    --color-scorpion: #B3B3B3;
+    --color-dove: #B3B3B3;
+    --color-gallery: #4D4D4D;
+    --color-alabaster: #333;
+  }
+}
+@font-face {
+  font-family: SansitaSwashed;
+  src: url(SansitaSwashed-Regular.ttf);
+  font-display: swap;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+/*# sourceMappingURL=global.css.map */
